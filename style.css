@@ -80,6 +80,9 @@ th, td {
         フッター
 -------------------- */
 footer {
-　background-color: #202020;
-　color: #101010;
+  display: flex;
+  justify-content: center;
+  padding: 3px;
+  background-color: #202020;
+  color: black;
 }
