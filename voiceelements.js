@@ -1,3 +1,5 @@
+function randomvoice(){
+
 const recommended = [ 
   '『公式ですけど』',
   '『要らね～』',
@@ -15,3 +17,6 @@ const recommended = [
   '『イエーイ(激低)』',
   '『はいよーいスタート』',
 ];
+const rundom = Math.floor(Math.random() * recommended.length);
+  document.getElementById("recommended").innerText = "recommended[random]";
+}
