@@ -15,6 +15,14 @@ const recommended = [
   '『イエーイ(激低)』',
   '『はいよーいスタート』',
 ];
+var btn = document.getElementById('btn');
+
+
+btn.addEventListener('click', function() {
+  
+    console.log('クリックされました！');
+  
+}, false);
 function randomvoice(){
   console.log("ボタンが押されました");
 const random = Math.floor(Math.random() * recommended.length);
